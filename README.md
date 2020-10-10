@@ -5,6 +5,7 @@ some folder including some code that i can use later.
 * CountdownUntilFixedDate
 * TextEffectInJS
 * EnableTextareaOnclic
+* ButtonDisabledOnClick
 * DropDownOfDropDownMenu
 
 ## CodePen beautiful code example
