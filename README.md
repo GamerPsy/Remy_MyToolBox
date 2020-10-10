@@ -6,10 +6,10 @@ some folder including some code that i can use later.
 * TextEffectInJS
 * EnableTextareaOnclic
 * DropDownOfDropDownMenu
-* BlackAndWhiteEffect-JS
 
 ## CodePen beautiful code example
 * SliderWithEffect
+* BlackAndWhiteEffect-JS
 
 ## Prestashop 1.6
 * Prestashop-FeatureAddField
