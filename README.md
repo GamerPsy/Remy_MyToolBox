@@ -5,3 +5,5 @@ CountdownUntilFixedDate
 SliderWithEffect
 TextEffectInJS
 EnableTextareaOnclic
+Prestashop-FeatureAddField
+DropDownOfDropDownMenu
