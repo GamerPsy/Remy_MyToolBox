@@ -40,3 +40,4 @@ function getTimeRemaining(endtime) {
   
   const deadline = "2020/10/15";
   initializeClock('clockdiv', deadline);
+  document.getElementById("clockdiv").style.display = "block";
