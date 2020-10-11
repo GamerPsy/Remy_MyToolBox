@@ -1,20 +1,20 @@
 const beforeTheDay =
   '<div id="clockdiv" style="max-height: 25px;">' +
-  '<div>' +
-  '<span class="days"></span>' +
-  '<div class="smalltext">Days</div>' +
-  "</div>" +
-  '<div>' +
-  '<span class="hours"></span>' +
-  '<div class="smalltext">Hours</div>' +
-  "</div>" +
-  '<div>' +
-  '<span class="minutes"></span>' +
-  '<div class="smalltext">Minutes</div>' +
-  "</div>" +
-  '<div>' +
-  '<span class="seconds"></span>' +
-  '<div class="smalltext">Seconds</div>' +
+  ' <div>' +
+  '   <span class="days"></span>' +
+  '   <div class="smalltext">Days</div>' +
+  " </div>" +
+  ' <div>' +
+  '   <span class="hours"></span>' +
+  '   <div class="smalltext">Hours</div>' +
+  " </div>" +
+  ' <div>' +
+  '   <span class="minutes"></span>' +
+  '   <div class="smalltext">Minutes</div>' +
+  " </div>" +
+  ' <div>' +
+  '   <span class="seconds"></span>' +
+  '   <div class="smalltext">Seconds</div>' +
   "</div>";
 const theDay = "C'est le jour J";
 const afterTheDay = "C'est en cours depuis le 15 !";
@@ -73,11 +73,5 @@ if (todayFormated > jourJ) {
   document.getElementById("countdownView").innerHTML = theDay;
 } else {
   document.getElementById("countdownView").innerHTML = beforeTheDay;
-  document.getElementById("clockdiv").style = "max-height: 25px;font-family: sans-serif; color: #fff; font-weight: 100; text-align: center; font-size: 30px;";
-  document.getElementsByClassName("smalltext").style = "padding-top: 5px; font-size: 16px;";
-  let divIdClockdiv = document.getElementById("clockdiv").getElementsByTagName("div");
-  divIdClockdiv.style = "padding: 10px; border-radius: 3px; background: #00bf96; display: inline-block;";
-  let spanIdClockdiv = document.getElementById("clockdiv").getElementsByTagName("span");
-  spanIdClockdiv.style = "padding: 15px; border-radius: 3px; background: #00816a; display: inline-block;";
   initializeClock("clockdiv", deadline);
 }
