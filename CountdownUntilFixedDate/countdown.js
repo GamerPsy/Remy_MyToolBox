@@ -7,7 +7,7 @@ let y = today.getFullYear();
 let m = today.getMonth();
 let d = today.getDate();
 let todayFormated = new Date(y, m, d).getTime();
-let jourJ = new Date("2020/10/9").getTime();
+let jourJ = new Date("2020/10/15").getTime();
 
 function getTimeRemaining(endtime) {
   const total = Date.parse(endtime) - Date.parse(new Date());
