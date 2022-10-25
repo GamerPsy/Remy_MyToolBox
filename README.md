@@ -5,17 +5,19 @@ some folder including some code that i can use later.
 * ButtonDisabledOnClick
 * CountdownUntilFixedDate
 * DropDownOfDropDownMenu
+* HideNavbarForModal
+* Meteo Ajax
 * TextMoveRight
+
 
 ## CodePen beautiful code example
 * BlackAndWhiteEffect-JS
 * Carousel Team
 * Carousel
 * ImageDynamique
-* Meteo Ajax
 * SliderWithEffect
 * turnPage-Effect
-* HideNavbarForModal
+
 
 ## Prestashop 1.6
 * Prestashop-FeatureAddField
