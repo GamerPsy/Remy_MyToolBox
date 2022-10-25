@@ -1,0 +1,23 @@
+body
+{
+    font-family: 'Trebuchet MS';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    text-align: center;
+    height: 100vh;
+}
+
+h1{
+    font-size: 3em;
+}
+
+i.wi {
+    font-size: 5em;
+    line-height: 3em;
+}
+
+h2{
+    font-size: 2em;
+}
