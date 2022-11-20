@@ -26,3 +26,4 @@ some folder including some code that i can use later.
 ## PHP fonctions utiles
 * isAnagramme
 * ArrayCalcOccurence
+* RevertOnlyWords
