@@ -1,0 +1,3 @@
+Rectangle
+Longueur : 52
+Largeur : 21

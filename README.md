@@ -28,3 +28,8 @@ some folder including some code that i can use later.
 * ArrayCalcOccurence
 * RevertOnlyWords
 * funkyRevert
+* fizzBuzz
+
+
+## PYTHON
+Fichiers en vrac à revoir et ordonner
