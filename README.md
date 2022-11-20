@@ -21,3 +21,7 @@ some folder including some code that i can use later.
 
 ## Prestashop 1.6
 * Prestashop-FeatureAddField
+
+
+## PHP fonctions utiles
+* isAnagramme
