@@ -29,6 +29,7 @@ some folder including some code that i can use later.
 * RevertOnlyWords
 * funkyRevert
 * fizzBuzz
+* bataille
 
 
 ## PYTHON

@@ -1,0 +1,26 @@
+listeCV=[
+    {
+        "prenom":"Toto",
+        "nom":"Grand",
+        "age":"20",
+        "sexe":"F",
+        "diplome":"+3"},
+    {
+        "prenom":"Titi",
+        "nom":"petit",
+        "age":"25",
+        "sexe":"M",
+        "diplome":"+3"},
+    {
+        "prenom":"Tutu",
+        "nom":"petit",
+        "age":"30",
+        "sexe":"F",
+        "diplome":"+5"},
+    {
+        "prenom":"Tata",
+        "nom":"grand",
+        "age":"35",
+        "sexe":"M",
+        "diplome":"+5"}]
+print(listeCV[1]["prenom"])

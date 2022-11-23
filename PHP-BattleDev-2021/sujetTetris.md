@@ -1,0 +1,53 @@
+Tetris Bot 1.0
+Pendant les longs trajets spatiaux, on a le temps de s'ennuyer ! Heureusement, votre ordinateur de bord intègre les dernières évolutions en termes de divertissement électronique. Réalité virtuelle, hologrammes, cinéma 4D télépathique... mais votre péché mignon c'est le Tetris. Avec vos talents de bidouilleur, vous souhaitez faire jouer une IA à votre place pendant vos phases de sommeil cryogénique, pour continuer à gagner des points au lieu de mettre le jeu en pause. Pour le moment, vous cherchez simplement à obtenir des points en faisant des Tetris (supprimer quatre lignes d'un coup en utilisant un tétrimino barre orienté verticalement). Ecrivez un programme qui détermine si le jeu est en situation dans laquelle un Tetris pourrait se produire si l'on y ajoutait une unique pièce bien placée. Pour des raisons de simplicité, le tetrimino barre doit obligatoirement chuter verticalement dès son apparition, sans pouvoir le faire slalomer entre des obstacles potentiels (voir l'exemple 2).
+Données
+Entrée
+Lignes 1 à 20 : 20 lignes de 10 caractères chacune représentant la zone de jeu. Un # correspond à un bloc placé et un . correspondant à une case libre.
+Sortie
+S'il est possible de faire un Tetris dans la configuration donnée, affichez BOOM <x>, x étant le numéro de la colonne dans laquelle insérer une barre pour déclencher le Tetris. Les colonnes sont numérotées de gauche à droite de 1 à 10. Autrement, affichez NOPE.
+Contraintes
+La configuration qui vous est fournie est une partie valide de Tetris : il n'y a pas de ligne déjà complétée, chaque ligne aura au minimum une case vide.
+Exemple 1
+..........
+..........
+..........
+..........
+..........
+..........
+..........
+..........
+..........
+#.........
+###..####.
+.##...###.
+###..####.
+###.###.#.
+#########.
+#########.
+#########.
+#########.
+#.##.#.###
+####.##.#.
+Il est possible ici de faire un Tetris en mettant une barre dans la colonne de droite, on affichera donc BOOM 10
+Exemple 2
+..........
+..........
+..........
+..........
+..........
+...###....
+.....#...#
+.....#.#..
+.#...###..
+#....#.##.
+###.######
+###.######
+###.######
+###.######
+#####.####
+#####.####
+#####.####
+#####.####
+#.##.#.###
+####.##.#.
+Dans ce cas, il existe bien des trous verticaux pouvant accueillir un tetrimino barre, mais ils sont recouverts par d'autres pièces déjà placées. Même si cette situation pourrait donner un Tetris dans une partie réelle (en déplaçant la barre de la colonne 3 à la colonne 4 en cours de chute), on se limite ici à des règles simplifiées dans lesquelles la pièce doit tomber verticalement. Vous devrez donc afficher NOPE.
