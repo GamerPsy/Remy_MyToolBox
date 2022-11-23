@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: sylvain
- * Date: 24/10/18
- * Time: 22:52
- */
 
 namespace Tests;
 
@@ -17,7 +11,7 @@ class BattleTest extends TestCase
 
     private $battle;
 
-    protected function setUp()
+    protected function setUp() : void
     {
         $this->battle = new Battle();
     }
