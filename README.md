@@ -33,6 +33,7 @@ some folder including some code that i can use later.
 * EvenOdd
 * Sapin de noël
 * Skillvalue
+* morse
 
 
 ## PYTHON
