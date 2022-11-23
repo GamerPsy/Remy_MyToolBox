@@ -32,6 +32,7 @@ some folder including some code that i can use later.
 * bataille
 * EvenOdd
 * Sapin de noël
+* Skillvalue
 
 
 ## PYTHON
