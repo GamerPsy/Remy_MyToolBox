@@ -30,6 +30,8 @@ some folder including some code that i can use later.
 * funkyRevert
 * fizzBuzz
 * bataille
+* EvenOdd
+* Sapin de noël
 
 
 ## PYTHON
