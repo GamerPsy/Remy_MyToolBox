@@ -1,0 +1,17 @@
+{
+    "name": "sylvain/binaire_sb_1",
+    "autoload" : {
+        "psr-4": {
+            "App\\" : "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sylvain Blondeau",
+            "email": "sylvain@wildcodeschool.fr"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^7.4"
+    }
+}

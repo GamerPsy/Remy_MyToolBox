@@ -8,6 +8,7 @@ some folder including some code that i can use later.
 * HideNavbarForModal
 * Meteo Ajax
 * TextMoveRight
+* SelectOptionWithImages
 
 
 ## CodePen beautiful code example
@@ -34,6 +35,7 @@ some folder including some code that i can use later.
 * Sapin de noël
 * Skillvalue
 * morse
+* binaire
 
 
 ## PYTHON

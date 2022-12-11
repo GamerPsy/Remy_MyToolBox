@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Bootstrap-select Examples</title>
+    <meta name="author" content="Tom Doan">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-select.css">
+    <style>
+        body {
+            margin: 2em;
+        }
+
+        pre {
+            margin: 1em 0;
+        }
+
+        select.selectpicker {
+            display: none;
+            /* Prevent FOUC */
+        }
+    </style>
+</head>
+
+<body>
+
+    <form>
+
+        <h2>Select with Icons</h2>
+        <select title="Select your spell" class="selectpicker">
+            <option>Select...</option>
+            <option data-icon="glyphicon glyphicon-eye-open" data-subtext="petrification">Eye of Medusa</option>
+            <option data-icon="glyphicon glyphicon-fire" data-subtext="area damage">Rain of Fire</option>
+        </select>
+        <pre>
+&lt;select title="Select your spell" class="selectpicker"&gt;
+  &lt;option&gt;Select...&lt;/option&gt;
+  &lt;option data-icon="glyphicon glyphicon-eye-open" data-subtext="petrification"&gt;Eye of Medusa&lt;/option&gt;
+  &lt;option data-icon="glyphicon glyphicon-fire" data-subtext="area damage"&gt;Rain of Fire&lt;/option&gt;
+&lt;/select&gt;</pre>
+
+        <hr>
+
+        <h2>Select with Thumbnails</h2>
+        <select title="Select your surfboard" class="selectpicker">
+            <option>Select...</option>
+            <option data-thumbnail="images/icon-chrome.png">Chrome</option>
+            <option data-thumbnail="images/icon-firefox.png">Firefox</option>
+            <option data-thumbnail="images/icon-ie.png">IE</option>
+            <option data-thumbnail="images/icon-opera.png">Opera</option>
+            <option data-thumbnail="images/icon-safari.png">Safari</option>
+        </select>
+        <pre>
+&lt;select title="Select your surfboard" class="selectpicker"&gt;
+  &lt;option&gt;Select...&lt;/option&gt;
+  &lt;option data-thumbnail="images/icon-chrome.png"&gt;Chrome&lt;/option&gt;
+  &lt;option data-thumbnail="images/icon-firefox.png"&gt;Firefox&lt;/option&gt;
+  &lt;option data-thumbnail="images/icon-ie.png"&gt;IE&lt;/option&gt;
+  &lt;option data-thumbnail="images/icon-opera.png"&gt;Opera&lt;/option&gt;
+  &lt;option data-thumbnail="images/icon-safari.png"&gt;Safari&lt;/option&gt;
+&lt;/select&gt;</pre>
+
+        <hr>
+
+
+
+    </form>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="select.js"></script>
+    <script>
+        $(document).ready(function () {
+            // Initiate with custom caret icon
+            $('select.selectpicker').selectpicker({
+                caretIcon: 'glyphicon glyphicon-menu-down'
+            });
+        });
+    </script>
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-2843793-6', 'auto');
+        ga('send', 'pageview');
+    </script>
+</body>
+
+</html>
